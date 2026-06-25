@@ -17,4 +17,6 @@
 using std::cout;
 using std::endl;
 
+const int RANDOM_TEST_MULTIPLIER = 100;
+
 #endif

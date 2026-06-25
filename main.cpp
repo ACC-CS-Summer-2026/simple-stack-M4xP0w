@@ -112,7 +112,7 @@ int main()
     Stack randomStack;
     int expected[STACK_SIZE];
     int expectedTop = -1;
-    int randomTests = STACK_SIZE * 100;
+    int randomTests = STACK_SIZE * RANDOM_TEST_MULTIPLIER;
 
     srand(static_cast<unsigned int>(time(nullptr)));
 

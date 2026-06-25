@@ -1,0 +1,9 @@
+# Compiled C++ output files
+a.out
+*.out
+*.o
+*.exe
+
+# Editor and OS files
+.vscode/
+.DS_Store
