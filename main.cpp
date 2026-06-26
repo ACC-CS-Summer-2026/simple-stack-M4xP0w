@@ -119,7 +119,7 @@ int main()
     for (int i = 0; i < randomTests; i++)
     {
         int operation = rand() % 4;
-        int randomValue = rand() % 10000;
+        int randomValue = rand() % RANDOM_VALUE_RANGE;
         bool expectedResult = false;
 
         if (operation == 0)

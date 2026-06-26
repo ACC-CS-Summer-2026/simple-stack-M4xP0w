@@ -18,5 +18,6 @@ using std::cout;
 using std::endl;
 
 const int RANDOM_TEST_MULTIPLIER = 100;
+const int RANDOM_VALUE_RANGE = 10000;
 
 #endif
